@@ -4,6 +4,7 @@ var Schema = mongoose.Schema;
 var product = new Schema({  //couldn't use new if wasn't a variable
   title: String,
   price: Number,
+  imgUrl: String,
   likes: {type: Number, default: 0}
 });
 
